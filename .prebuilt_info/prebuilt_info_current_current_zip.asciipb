@@ -1,0 +1,15 @@
+drops {
+  android_build_drop {
+    build_id: "T1004007"
+    target: "train_build"
+    source_file: "mainline-sdks/for-latest-build/current/com.google.android.adservices/sdk/adservices-module-sdk-current.zip"
+  }
+  dest_file: "current/current.zip"
+  version: ""
+  version_group: ""
+  git_project: "platform/prebuilts/module_sdk/AdServices"
+  git_branch: "tm-dev"
+  transform: TRANSFORM_UNZIP
+  transform_options {
+  }
+}
