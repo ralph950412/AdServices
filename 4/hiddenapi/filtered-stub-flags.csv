@@ -516,8 +516,9 @@ Landroid/adservices/topics/GetTopicsParam$1;->createFromParcel(Landroid/os/Parce
 Landroid/adservices/topics/GetTopicsParam$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/adservices/topics/GetTopicsParam;->describeContents()I,public-api,system-api,test-api
 Landroid/adservices/topics/GetTopicsParam;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
-Landroid/adservices/topics/GetTopicsRequest;->create()Landroid/adservices/topics/GetTopicsRequest;,public-api,system-api,test-api
-Landroid/adservices/topics/GetTopicsRequest;->createWithAdsSdkName(Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest;,public-api,system-api,test-api
+Landroid/adservices/topics/GetTopicsRequest$Builder;-><init>()V,public-api,system-api,test-api
+Landroid/adservices/topics/GetTopicsRequest$Builder;->build()Landroid/adservices/topics/GetTopicsRequest;,public-api,system-api,test-api
+Landroid/adservices/topics/GetTopicsRequest$Builder;->setAdsSdkName(Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;,public-api,system-api,test-api
 Landroid/adservices/topics/GetTopicsRequest;->getAdsSdkName()Ljava/lang/String;,public-api,system-api,test-api
 Landroid/adservices/topics/GetTopicsResponse$Builder;-><init>(Ljava/util/List;)V,public-api,system-api,test-api
 Landroid/adservices/topics/GetTopicsResponse$Builder;->build()Landroid/adservices/topics/GetTopicsResponse;,public-api,system-api,test-api
