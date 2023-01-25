@@ -6,7 +6,6 @@ Landroid/adservices/AdServicesFrameworkInitializer$$ExternalSyntheticLambda5;->c
 Landroid/adservices/AdServicesFrameworkInitializer$$ExternalSyntheticLambda7;->createService(Landroid/content/Context;)Ljava/lang/Object;,system-api,test-api
 Landroid/adservices/AdServicesFrameworkInitializer$$ExternalSyntheticLambda9;->createService(Landroid/content/Context;)Ljava/lang/Object;,system-api,test-api
 Landroid/adservices/AdServicesState;->isAdServicesStateEnabled()Z,public-api,system-api,test-api
-Landroid/adservices/AdServicesVersion;->API_VERSION:I,public-api,system-api,test-api
 Landroid/adservices/adid/AdId;-><init>(Ljava/lang/String;Z)V,public-api,system-api,test-api
 Landroid/adservices/adid/AdId;->ZERO_OUT:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/adservices/adid/AdId;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
