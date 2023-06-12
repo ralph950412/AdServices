@@ -1,13 +1,9 @@
 // This is auto-generated. DO NOT EDIT.
 
-// Soong config variable stanza added by vendor/google/build/mainline_modules_sdks.py.
-soong_config_module_type_import {
-    from: "packages/modules/common/Android.bp",
-    module_types: [
-        "module_java_sdk_library_import",
-        "module_prebuilt_bootclasspath_fragment",
-        "module_prebuilt_systemserverclasspath_fragment",
-    ],
+// blueprint rules added by vendor/google/build/mainline_modules_sdks.py
+// to support coexistence.
+blueprint_package_includes {
+    match_all: ["com.android.mainline"]
 }
 
 package {
@@ -16,14 +12,12 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
-module_prebuilt_bootclasspath_fragment {
+prebuilt_bootclasspath_fragment {
     name: "com.android.adservices-bootclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -48,22 +42,24 @@ module_prebuilt_bootclasspath_fragment {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "framework-adservices",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
-    apex_available: ["com.android.adservices"],
+    apex_available: [
+        "com.android.adservices",
+        "com.android.extservices",
+    ],
     licenses: ["adservices-module-sdk_Android-Apache-2.0"],
     shared_library: false,
     permitted_packages: [
         "com.android.adservices",
         "android.adservices",
+        "android.app.adservices",
     ],
     public: {
         jars: ["sdk_library/public/framework-adservices-stubs.jar"],
@@ -91,14 +87,12 @@ module_java_sdk_library_import {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "framework-sdksandbox",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -134,14 +128,12 @@ module_java_sdk_library_import {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "service-adservices",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -166,20 +158,19 @@ module_java_sdk_library_import {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "service-sdksandbox",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
     licenses: ["adservices-module-sdk_Android-Apache-2.0"],
     shared_library: false,
     permitted_packages: [
+        "android.app.sdksandbox",
         "com.android.sdksandbox",
         "com.android.server.sdksandbox",
     ],
@@ -208,14 +199,12 @@ license {
     license_text: ["licenses/build/soong/licenses/LICENSE"],
 }
 
-module_prebuilt_systemserverclasspath_fragment {
+prebuilt_systemserverclasspath_fragment {
     name: "com.android.adservices-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
+    use_source_config_var: {
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
