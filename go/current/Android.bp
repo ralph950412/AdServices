@@ -139,7 +139,10 @@ java_sdk_library_import {
     apex_available: ["com.android.adservices"],
     licenses: ["adservices-module-sdk_Android-Apache-2.0"],
     shared_library: false,
-    permitted_packages: ["com.android.server.adservices"],
+    permitted_packages: [
+        "com.android.server.adservices",
+        "com.google.errorprone.annotations",
+    ],
     public: {
         jars: ["sdk_library/public/service-adservices-stubs.jar"],
         stub_srcs: ["sdk_library/public/service-adservices.srcjar"],
