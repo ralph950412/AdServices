@@ -1,6 +1,7 @@
 android/adservices/AdServicesFrameworkInitializer
 android/adservices/AdServicesState
 android/adservices/AdServicesVersion
+android/adservices/FlagsConstants
 android/adservices/adid/**
 android/adservices/adselection/**
 android/adservices/appsetid/**
