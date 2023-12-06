@@ -179,12 +179,6 @@ Landroid/adservices/adselection/BuyersDecisionLogic;->describeContents()I,public
 Landroid/adservices/adselection/BuyersDecisionLogic;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/BuyersDecisionLogic;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/BuyersDecisionLogic;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
-Landroid/adservices/adselection/ContextualAds$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
-Landroid/adservices/adselection/ContextualAds$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
-Landroid/adservices/adselection/ContextualAds;->describeContents()I,public-api,sdk,system-api,test-api
-Landroid/adservices/adselection/ContextualAds;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/adservices/adselection/ContextualAds;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/adservices/adselection/ContextualAds;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/DecisionLogic$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/DecisionLogic$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/DecisionLogic;->describeContents()I,public-api,sdk,system-api,test-api
@@ -296,6 +290,13 @@ Landroid/adservices/adselection/SetAppInstallAdvertisersInput$1;->createFromParc
 Landroid/adservices/adselection/SetAppInstallAdvertisersInput$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/SetAppInstallAdvertisersInput;->describeContents()I,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/SetAppInstallAdvertisersInput;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/adservices/adselection/SignedContextualAds;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/TestAdSelectionManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/TestAdSelectionManager$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/adservices/adselection/TestAdSelectionManager$2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
