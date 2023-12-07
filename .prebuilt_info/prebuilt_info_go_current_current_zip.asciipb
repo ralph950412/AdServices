@@ -1,6 +1,6 @@
 drops {
   android_build_drop {
-    build_id: "P66079540"
+    build_id: "P66500612"
     target: "mainline_go_modules_sdks-trunk-userdebug"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.go.adservices/sdk/adservices-module-sdk-current.zip"
   }
