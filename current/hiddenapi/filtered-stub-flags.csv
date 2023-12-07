@@ -15,6 +15,7 @@ Landroid/adservices/adid/AdId;->hashCode()I,core-platform-api,public-api,system-
 Landroid/adservices/adid/AdId;->isLimitAdTrackingEnabled()Z,public-api,system-api,test-api
 Landroid/adservices/adid/AdId;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/adid/AdIdCompatibleManager$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/adservices/adid/AdIdCompatibleManager$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/adid/AdIdCompatibleManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/adid/AdIdCompatibleManager$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/adid/AdIdManager;->get(Landroid/content/Context;)Landroid/adservices/adid/AdIdManager;,public-api,system-api,test-api
@@ -349,7 +350,8 @@ Landroid/adservices/appsetid/AppSetId;->equals(Ljava/lang/Object;)Z,core-platfor
 Landroid/adservices/appsetid/AppSetId;->getId()Ljava/lang/String;,public-api,system-api,test-api
 Landroid/adservices/appsetid/AppSetId;->getScope()I,public-api,system-api,test-api
 Landroid/adservices/appsetid/AppSetId;->hashCode()I,core-platform-api,public-api,system-api,test-api
-Landroid/adservices/appsetid/AppSetIdManager$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Landroid/adservices/appsetid/AppSetIdManager$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/adservices/appsetid/AppSetIdManager$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/appsetid/AppSetIdManager$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/appsetid/AppSetIdManager$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/adservices/appsetid/AppSetIdManager;->get(Landroid/content/Context;)Landroid/adservices/appsetid/AppSetIdManager;,public-api,system-api,test-api
@@ -1076,6 +1078,10 @@ Landroid/app/sdksandbox/ISharedPreferencesSyncCallback$Default;->asBinder()Landr
 Landroid/app/sdksandbox/ISharedPreferencesSyncCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/app/sdksandbox/ISharedPreferencesSyncCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/app/sdksandbox/ISharedPreferencesSyncCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/app/sdksandbox/IUnloadSdkCallback$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/app/sdksandbox/IUnloadSdkCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/app/sdksandbox/IUnloadSdkCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/app/sdksandbox/IUnloadSdkCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/app/sdksandbox/LoadSdkException$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/app/sdksandbox/LoadSdkException$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/app/sdksandbox/LoadSdkException;-><init>(Ljava/lang/Throwable;Landroid/os/Bundle;)V,public-api,system-api,test-api
@@ -1167,8 +1173,10 @@ Landroid/app/sdksandbox/SharedPreferencesUpdate$1;->newArray(I)[Ljava/lang/Objec
 Landroid/app/sdksandbox/SharedPreferencesUpdate;->describeContents()I,public-api,system-api,test-api
 Landroid/app/sdksandbox/SharedPreferencesUpdate;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxActivityHandler;->onActivityCreated(Landroid/app/Activity;)V,public-api,system-api,test-api
+Landroid/app/sdksandbox/sdkprovider/SdkSandboxClientImportanceListener;->onForegroundImportanceChanged(Z)V,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController$LoadSdkReceiverProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController$LoadSdkReceiverProxy$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/app/sdksandbox/sdkprovider/SdkSandboxController$SdkSandboxClientImportanceListenerProxy$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->SDK_SANDBOX_CONTROLLER_SERVICE:Ljava/lang/String;,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->getAppOwnedSdkSandboxInterfaces()Ljava/util/List;,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->getClientPackageName()Ljava/lang/String;,public-api,system-api,test-api
@@ -1176,7 +1184,9 @@ Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->getClientSharedPrefer
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->getSandboxedSdks()Ljava/util/List;,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->loadSdk(Ljava/lang/String;Landroid/os/Bundle;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->registerSdkSandboxActivityHandler(Landroid/app/sdksandbox/sdkprovider/SdkSandboxActivityHandler;)Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->registerSdkSandboxClientImportanceListener(Ljava/util/concurrent/Executor;Landroid/app/sdksandbox/sdkprovider/SdkSandboxClientImportanceListener;)V,public-api,system-api,test-api
 Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->unregisterSdkSandboxActivityHandler(Landroid/app/sdksandbox/sdkprovider/SdkSandboxActivityHandler;)V,public-api,system-api,test-api
+Landroid/app/sdksandbox/sdkprovider/SdkSandboxController;->unregisterSdkSandboxClientImportanceListener(Landroid/app/sdksandbox/sdkprovider/SdkSandboxClientImportanceListener;)V,public-api,system-api,test-api
 Lcom/android/adservices/AndroidServiceBinder$$ExternalSyntheticLambda0;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,system-api,test-api
 Lcom/android/adservices/AndroidServiceBinder$AdServicesServiceConnection;->onBindingDied(Landroid/content/ComponentName;)V,public-api,system-api,test-api
 Lcom/android/adservices/AndroidServiceBinder$AdServicesServiceConnection;->onNullBinding(Landroid/content/ComponentName;)V,public-api,system-api,test-api
