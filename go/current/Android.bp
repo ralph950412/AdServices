@@ -141,6 +141,7 @@ java_sdk_library_import {
     shared_library: false,
     permitted_packages: [
         "com.android.adservices.shared",
+        "com.android.adservices.service",
         "com.android.server.adservices",
         "com.google.errorprone.annotations",
     ],
