@@ -14,10 +14,10 @@ package {
 
 prebuilt_bootclasspath_fragment {
     name: "com.android.adservices-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "adservices_module" is true.
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "adservices_module",
-        var_name: "source_build",
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -44,10 +44,10 @@ prebuilt_bootclasspath_fragment {
 
 java_sdk_library_import {
     name: "framework-adservices",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "adservices_module" is true.
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "adservices_module",
-        var_name: "source_build",
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: [
@@ -89,10 +89,10 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "framework-sdksandbox",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "adservices_module" is true.
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "adservices_module",
-        var_name: "source_build",
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -130,10 +130,10 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "service-adservices",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "adservices_module" is true.
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "adservices_module",
-        var_name: "source_build",
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -141,7 +141,6 @@ java_sdk_library_import {
     shared_library: false,
     permitted_packages: [
         "com.android.adservices.shared",
-        "com.android.adservices.service",
         "com.android.server.adservices",
         "com.google.errorprone.annotations",
     ],
@@ -165,10 +164,10 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "service-sdksandbox",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "adservices_module" is true.
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "adservices_module",
-        var_name: "source_build",
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
@@ -206,10 +205,10 @@ license {
 
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.adservices-systemserverclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "adservices_module" is true.
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "adservices_module",
-        var_name: "source_build",
+        config_namespace: "ANDROID",
+        var_name: "module_build_from_source",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.adservices"],
