@@ -1,7 +1,6 @@
 android/adservices/AdServicesFrameworkInitializer
 android/adservices/AdServicesState
 android/adservices/AdServicesVersion
-android/adservices/FlagsConstants
 android/adservices/adid/**
 android/adservices/adselection/**
 android/adservices/appsetid/**
@@ -9,7 +8,9 @@ android/adservices/cobalt/**
 android/adservices/common/**
 android/adservices/customaudience/**
 android/adservices/exceptions/**
+android/adservices/extdata/**
 android/adservices/measurement/**
+android/adservices/shell/**
 android/adservices/signals/**
 android/adservices/topics/**
 android/app/adservices/**
